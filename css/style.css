@@ -163,6 +163,23 @@ main {
     color: var(--light-gray);
 }
 
+/*----Portfolio section----*/
+.portfolio  {
+    background-color:#F6F6F6;
+    padding-top: 81px;
+}
+.portfolio_title {
+    margin-bottom: 70px;
+}
+.portfolio_img {
+    width: 100%;
+    margin-bottom: 33px;
+}
+.plink {
+    display: inline-block;
+    margin-bottom: 78px;
+}
+
 /*----sm RWD----*/ 
 @media screen and (min-width:576px) {
     .main_img {
@@ -219,12 +236,20 @@ main {
     .skills_description {
         margin-bottom: 83px;
     }
+    .portfolio  {
+        text-align: center;
+        padding-top: 113px;
+    }
+    .portfolio_title {
+        margin-bottom: 50px;
+    }
+    .portfolio_img {
+        margin-bottom: 45px;
+    }
+    .plink {
+        margin-bottom: 99px;
+    }
 }
-
-
-/* .about_me {
-    flex-direction: column;
-} */
 /*----lg RWD----*/
 @media screen and (min-width:968px) {
     
