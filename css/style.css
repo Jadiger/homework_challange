@@ -11,6 +11,7 @@
 :root {
     --black: #070707;
     --gray: #828282;
+    --light-gray:#E5E5E5;
     --container: calc(100vw - 60px);
     --container-sm: 90vw;
     --container-md: 85vw;
@@ -27,6 +28,7 @@
     font-size: 18px;
     color: var(--black);
     font-family: 'Gilroy-Medium';
+    scroll-behavior: smooth;
 }
 h1 {
     font-size: 47px;
@@ -122,6 +124,45 @@ main {
     margin-bottom: 50px;
 }
 
+/*----Skills Section----*/
+.skills {
+    padding: 83px 0 19px;
+    text-align: center;
+}
+.skills_title {
+    margin-bottom: 50px;
+}
+.skills_description {
+    margin-bottom: 70px;
+}
+
+.skill_img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 24px;
+}
+.skill_img_figma {
+    width: 60px;
+    height: 90px;
+    margin-bottom: 24px;
+}
+.skill_name {
+    margin-bottom: 40px;
+}
+.figma {
+    margin-bottom: 62px;
+}
+.stars {
+    width: 167px;
+    margin-bottom: 80px;
+}
+.stars i {
+    font-size: 26px;
+}
+.light-star {
+    color: var(--light-gray);
+}
+
 /*----sm RWD----*/ 
 @media screen and (min-width:576px) {
     .main_img {
@@ -169,7 +210,15 @@ main {
     .about_span {
         display: block;
     }
-    
+    .skills {
+        padding: 91px 0 30px;
+    }
+    .skills_title {
+        margin-bottom: 69px;
+    }
+    .skills_description {
+        margin-bottom: 83px;
+    }
 }
 
 
