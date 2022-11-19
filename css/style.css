@@ -46,7 +46,17 @@ small {
 h1, h2, h4, small {
     font-family: 'Gilroy-Bold';
 }
-
+.to_top {
+    width: 40px;
+    position: fixed;
+    right:10px;
+    bottom:30px;
+    text-align: right;
+}
+.to_top i {
+    font-size: 2rem;
+    color:#07070752;
+}
 /*----Header Styles----*/
 nav {
     display: none;
@@ -288,7 +298,16 @@ main {
 }
 /*----lg RWD----*/
 @media screen and (min-width:968px) {
-    
+    .to_top {
+        width: 50px;
+        position: fixed;
+        right:30px;
+        bottom:30px;
+        text-align: right;
+    }
+    .to_top i {
+        font-size: 3rem;
+    }
     .main_img {
         height: calc(0.41*var(--container-lg));
     }
