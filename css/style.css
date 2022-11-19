@@ -180,13 +180,42 @@ main {
     display: inline-block;
     margin-bottom: 78px;
 }
+/*----Contacts Section----*/
+.contacts {
+    padding: 82px 0 120px;
+    text-align: center;
+}
+.contacts_title {
+    margin-bottom: 35px;
+}
+.btn_send_message {
+    color: #fff;
+    font-family: 'Gilroy-Bold';
+    background-color:var(--black);
+    padding: 12px 0;
+    border-radius:50px;
+    margin: 40px 0 48px;
+}
+.social_media {
+    max-width: 345px;
+    margin: 0 auto 45px;
+}
 
+.social_media i {
+    font-size: 40px;
+}
+.social_links {
+    font-family: 'Gilroy-Medium';
+}
 /*----sm RWD----*/ 
 @media screen and (min-width:576px) {
     .main_img {
         height:calc(1.51*var(--container-sm));
     } 
-        
+    .btn_send_message {
+        width: 180px;
+        margin: 30px auto 86px;
+    } 
 }
 
 /*----md Responsive styles----*/
@@ -248,6 +277,13 @@ main {
     }
     .plink {
         margin-bottom: 99px;
+    }
+    .contacts {
+        padding: 114px 0 120px;
+        text-align: center;
+    }
+    .contacts_title {
+        margin-bottom: 35px;
     }
 }
 /*----lg RWD----*/
