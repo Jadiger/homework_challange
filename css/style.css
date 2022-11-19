@@ -79,6 +79,10 @@ nav .nav_links {
     height: 1px;
     background-color: var(--gray);
 }
+.no_active {
+    color:var(--gray);
+    font-size: 16px;
+}
 
 /*----Main Styles----*/
 main {
@@ -119,7 +123,6 @@ main {
     background-size: cover;
     background-position: center;
 }
-
 
 /*----About Me Section Styles----*/
 .about_me {
