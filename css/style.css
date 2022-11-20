@@ -71,9 +71,11 @@ nav {
     background-color:#fff;
     text-align: center;
     z-index: 10;
-    transform: translateX(100%);
     transition: transform .6s;
     padding:50px 25px;
+}
+.nav_link_transform {
+    transform: translateX(100%);
 }
 .nav_link {
     text-align: left;
@@ -319,6 +321,9 @@ main {
     .nav_link {
         font-size: 18px;
         margin-bottom: 0;
+    }
+    .nav_link_transform {
+        transform: translateX(0);
     }
     .close_menu {
         display: none;

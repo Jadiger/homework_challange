@@ -9,12 +9,12 @@ const menuBurger = document.querySelector('.menu_burger');
 const closeMenu = document.querySelector('.close_menu');
 
 menuBurger.addEventListener('click',()=> {
-    navList.style.transform = "translateX(0%)";
+    navList.classList.remove('nav_link_transform');
     body.style.overflow = "hidden";
 });
 
 function closeFunc() {
-    navList.style.transform = "translateX(100%)";
+    navList.classList.add('nav_link_transform');
     body.style.overflow = "auto";
 }
 closeMenu.addEventListener('click',closeFunc);
